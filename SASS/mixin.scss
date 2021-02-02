@@ -1,0 +1,19 @@
+@import"variables";
+@mixin strip ($color,$name,$duration){
+
+            background-color:$color;
+			animation-name: $name;
+			animation-duration: $duration;
+            animation-timing-function: ease-out;
+        }
+
+@mixin flex{
+    height: $height;
+    text-align: center;
+    display: flex;
+
+}
+@mixin center {
+    align-items: center;
+    justify-content: center;  
+}
